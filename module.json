@@ -1,0 +1,66 @@
+{
+  "id": "drama-director-cinematic",
+  "title": "Drama Director — Cinematic",
+  "description": "Cinematic engine for the Drama Director family: intros (Sin City / Snatch / Machete / Machete Blood / Sci-Fi / Detective), ability-effect bindings (drop a spell or item to play a Text & Pics preset when used), screen-wide effects engine used by Text & Pics, and a custom loading screen. Renders text / picture overlays on behalf of drama-director-textpics.",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "phoenix1cold",
+      "url": "https://github.com/phoenix1cold"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/cinematic.css"
+  ],
+  "socket": true,
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "zh",
+      "name": "Chinese Simplified",
+      "path": "lang/zh.json"
+    }
+  ],
+  "templates": [
+    "templates/intro-panel.hbs",
+    "templates/effects-panel.hbs"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "drama-director-hub",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0"
+        }
+      }
+    ]
+  },
+  "flags": {},
+  "url": "https://github.com/phoenix1cold/drama-director-cinematic",
+  "manifest": "https://github.com/phoenix1cold/drama-director-cinematic/releases/latest/download/module.json",
+  "download": "https://github.com/phoenix1cold/drama-director-cinematic/releases/download/v1.0/module.zip",
+  "readme": "https://github.com/phoenix1cold/drama-director-cinematic/blob/main/README.md",
+  "bugs": "https://github.com/phoenix1cold/drama-director-cinematic/issues"
+}

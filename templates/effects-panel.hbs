@@ -1,0 +1,27 @@
+<div class="dd-effects-panel dd-effects-panel--abilities">
+
+  <header class="dd-ae-header">
+    <h2><i class="fas fa-bolt"></i> {{localize "DRAMADIRECTOR.abilityEffects.tabLabel"}}</h2>
+    <button type="button" class="dd-icon-btn" data-action="ae-refresh-presets"
+      title="{{localize "DRAMADIRECTOR.abilityEffects.refreshPresets"}}">
+      <i class="fas fa-sync-alt"></i>
+    </button>
+  </header>
+
+  <p class="dd-hint-block">
+    <i class="fas fa-info-circle"></i> {{localize "DRAMADIRECTOR.abilityEffects.hint"}}
+  </p>
+
+  {{!-- Drop zone for spells/items/abilities --}}
+  <div id="dd-ae-dropzone" class="dd-ae-dropzone">
+    <div class="dd-ae-dropzone-inner">
+      <i class="fas fa-hand-sparkles"></i>
+      <span>{{localize "DRAMADIRECTOR.abilityEffects.dropHere"}}</span>
+      <small>{{localize "DRAMADIRECTOR.abilityEffects.dropHint"}}</small>
+    </div>
+  </div>
+
+  {{!-- List --}}
+  <div id="dd-ae-list" class="dd-ae-list"></div>
+
+</div>
